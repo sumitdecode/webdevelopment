@@ -151,57 +151,110 @@
      padding: 20px;
  }
 
- .text{
+ .text {
      display: flex;
      align-items: center;
      max-width: 40vw;
-     
+
  }
- section .tv{
-    position: relative;
-   
+
+ section .tv {
+     position: relative;
+
  }
 
  section .tv img {
      width: 43vw;
      padding: 32px 5px 20px 165px;
      right: 150px;
-     
+
      z-index: 10;
  }
 
- section .tv video{
-    position: absolute ;
-    width: 30vw;
-    top: 142px;
-    right: 105px;
- }
- .second span{
-    color: white;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: end;
+ section .tv video {
+     position: absolute;
+     width: 30vw;
+     top: 142px;
+     right: 105px;
  }
 
- .second{
-    display: flex;
-    align-items: center;
+ .second span {
+     color: white;
+     display: flex;
+     /* flex-direction: column; */
+     align-items: end;
+ }
+
+ .second {
+     display: flex;
+     align-items: center;
+
+ }
+
+ .third {
+     display: flex;
+     align-items: center;
+ }
+
+ .faqs h2 {
+     color: white;
+     font-size: 48px;
+     padding: 5vw 4px 16px 4vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 900;
+
+ }
+
+
+
+ section .faqbox {
+     width: 75vw;
+     height: 5vh;
+     background-color: gray;
+     padding: 10px;
+     margin: 9px 10vw;
     
- }
- .third{
-    display: flex;
-    align-items:center ;
+
  }
 
-.faqs h2{
-    color: white;
-    font-size: 48px;
-    padding: 8vw;
+ .faqs div {
+     color:rgb(255, 255, 255);
+     padding: 12px 4px 10px 25px;;
+     font-size: 24px;
+     font-weight: 400;
+
+ }
+ .faqs span{
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 900;
- 
-}
+    margin: 20px;
+ }
 
-  
+ .faqs span .btn-red{
+    color: red;
+     width: 114px;
+     z-index: 10;
+     position: relative;
+ }
+ .faqs span div {
+    background-color: red;
+     color: white;
+     padding: 3px 24px;
+     border-radius: 4px;
+     font-weight: 400;
+
+     font-size: 18px;
+
+ }
+ section .one{
+    display: flex;
+    align-items: center;
+
+
+    justify-content: center;
+
+ }
