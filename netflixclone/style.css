@@ -130,10 +130,11 @@
 
  }
 
- .section {
+ .first{
      display: flex;
      align-items: center;
      justify-content: center;
+     padding: 50px 120px;
  }
 
 
@@ -141,20 +142,21 @@
      font-size: 48px;
      font-weight: 900;
      color: white;
-     padding: 20px;
+     /* padding: 20px; */
  }
 
  .text2 {
      font-size: 24px;
      font-weight: 400;
      color: white;
-     padding: 20px;
+     /* padding: 20px; */
  }
 
  .text {
      display: flex;
-     align-items: center;
-     max-width: 40vw;
+     align-items: self-start ;
+    flex-direction: column;
+    gap: 10px;
 
  }
 
@@ -176,6 +178,13 @@
      width: 30vw;
      top: 142px;
      right: 105px;
+ }
+
+ .shyam{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap:10px;
  }
 
  .second span {
@@ -250,11 +259,28 @@
      font-size: 18px;
 
  }
- section .one{
+.One{
     display: flex;
     align-items: center;
-
-
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.One text{
+ padding: 4px 85px;
+     border-radius: 4px;
 
- }
+     font-size: 15px;
+     color: white;
+     background-color: rgba(23, 23, 23, 0.8);
+     border: 1px solid rgba(180, 172, 172, 0.649);
+}
+
+.One .btn-red{
+     background-color: red;
+     padding: 7px 8px;
+
+     color: white;
+     border-radius: 7px;
+
+}
