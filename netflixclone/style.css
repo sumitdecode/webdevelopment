@@ -284,3 +284,15 @@
      border-radius: 7px;
 
 }
+.blackbox{
+    padding:34px 5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+    flex-wrap: wrap;
+}
+.blackbox span{
+    margin: 25px;
+    padding: 7vw;
+}
